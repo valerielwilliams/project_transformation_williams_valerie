@@ -134,6 +134,17 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+@media all and (min-width: 600px) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+
+
+
+
 
 /* Page */
 #page {
