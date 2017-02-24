@@ -64,15 +64,12 @@ a {
 
 /* Logo */
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #ffffff;
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -91,28 +88,19 @@ a {
 
 /* Menu */
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0 0 0;
     list-style: none;
     line-height: normal;
 }
 
-#menu li {
-    float: left;
-}
-
 #menu a {
     display: block;
-    line-height: 100px;
     margin-right: 1px;
     padding: 0 20px 0 20px;
     text-decoration: none;
@@ -141,8 +129,6 @@ a {
 
 /* Content */
 #content {
-    float: right;
-    width: 660px;
     padding: 0 0 0 0;
 }
 
@@ -172,13 +158,12 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-    float: left;
+/* .post .meta .date {
 }
 
 .post .meta .posted {
-    float: right;
-}
+
+} */
 
 .post .entry {
     padding: 0 0 40px 0;
@@ -192,8 +177,6 @@ a {
 
 .more {
     display: block;
-    float: left;
-    width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -204,8 +187,6 @@ a {
 
 .comments {
     display: block;
-    float: left;
-    width: 88px;
     padding: 5px 5px;
     background: #222222;
     color: #ffffff;
@@ -215,8 +196,6 @@ a {
 
 /* Sidebar */
 #sidebar {
-    float: left;
-    width: 270px;
     margin: 0;
     padding: 30px 0 0 0;
 }
@@ -238,7 +217,6 @@ a {
 }
 
 #sidebar li li {
-    line-height: 40px;
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
@@ -258,7 +236,6 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0 0 30px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
@@ -281,7 +258,6 @@ a {
 
 /* Footer */
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
