@@ -140,10 +140,18 @@ a {
         width: 50%;
     }
 }
+
 @media all and (min-width: 850px) {
     nav li {
         display: inline-block;
         width: calc(100% / 3);
+    }
+}
+
+@media all and (min-width: 1100px) {
+    nav li {
+        display: inline-block;
+        width: calc(100% / 5);
     }
 }
 
