@@ -206,6 +206,7 @@ a {
 .more {
     display: block;
     padding: 5px 5px;
+    margin-bottom: 5px;
     background: #222222;
     color: #ffffff;
     text-align: center;
