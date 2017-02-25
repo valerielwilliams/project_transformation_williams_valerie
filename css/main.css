@@ -238,12 +238,12 @@ a {
 /* Sidebar */
 #sidebar {
     margin: 0;
-    padding: 30px 0 0 10px;
+    padding: 0 0 0 10px;
 }
 
 #sidebar ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px 0;
     list-style: none;
 }
 
@@ -252,13 +252,8 @@ a {
     padding: 0;
 }
 
-#sidebar li ul {
-    margin: 0 0;
-    padding-bottom: 30px;
-}
-
 #sidebar h3 {
-    padding: 30px 0 0 0;
+    padding: 0 0 5px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
